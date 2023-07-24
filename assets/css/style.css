@@ -1,0 +1,34 @@
+/* start to import google fonts uses to the project */
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@400;500;600;700;800;900;1000&display=swap');
+/* end to import google fonts uses to the project */
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+/* start tailwindcss components */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* end tailwindcss components */
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+/* start all default selector */
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+/* end all default selector */
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+
+/* start defined variables on root */
+:root {
+    --first-theme-color: rgb(252 211 77 / 1);
+    --second-theme-color: #fff;
+}
+/* -------------------------------------------------------------------------------------------------------------- */
+
