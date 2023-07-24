@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     './assets/html/inscription.html',
-    './public/index.html'
+    './index.html'
   ],
   theme: {
     extend: {},
